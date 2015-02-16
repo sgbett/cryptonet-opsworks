@@ -8,7 +8,7 @@ end
 #checkout correct version of bitcoin
 git "#{node['cryptonet-opsworks']['bitcoind']['src_prefix']}/bitcoin" do
   repository "https://github.com/bitcoin/bitcoin.git"
-  revision "v0.10.0rc4"
+  revision node['cryptonet-opsworks']['bitcoind']['revision']
   action :sync
 end
 
