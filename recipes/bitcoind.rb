@@ -1,5 +1,5 @@
 #install dependencies
-%w[build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev].each do |pkg|
+%w[build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libcurl4-openssl-dev].each do |pkg|
   package pkg do
     action :install
   end
