@@ -1,3 +1,3 @@
 default['cryptonet-opsworks']['bitcoind']['repo'] = "https://github.com/BitcoinUnlimited/BitcoinUnlimited.git"
-default['cryptonet-opsworks']['bitcoind']['revision'] = "0.12.1bu"
+default['cryptonet-opsworks']['bitcoind']['revision'] = "1.0.0.1"
 default['cryptonet-opsworks']['bitcoind']['src_prefix'] = '/usr/local/src'
